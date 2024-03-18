@@ -27,6 +27,7 @@
     header h1{
         margin-top: 15px;
         margin-left: 15px;
+        color: grey;
     }
     header img{
         
@@ -59,7 +60,7 @@
         .image{
             margin-left: 50px;
             width: 75%;
-            height:300px;
+            height:245px;
             border-radius: 5px;
 
         }
@@ -67,10 +68,177 @@
             margin-left: 50px;
             margin-top: 10px;
         }
+        .overlay h1{
+            font-size: 40px;
+            color: grey;
+        }
+        .info{
+            color: grey;
+        }
         .overlay h2{
             margin-top: 5px;
+            font-size: 30px;
         }
-    
-    
-    
+        .skills h3{
+            text-align: center;
+            color: lightblue;
+        }
+    .skills h4{
+        text-align: center;
+        color: grey;   
+    }
+    .about{
+        text-align: center;
+    }
+    .me{
+        color:grey;
+    }
+    .dhilee{
+        font-size: large;
+        color:#CEC9C9;
+    }
+
+    .about .para{
+        margin: 2px;
+        padding: 10px;
+        color:grey;
+    }
+    .b{
+        text-align: center;
+    }
+    .goon img{
+        width: 90%;
+        margin-left: 20px; 
+    }
+    .goont h1{
+        text-align:center;
+    }
+    .goont h4 {
+        text-align: center;
+    }
+    .sec2 img{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .goon2{
+        text-align: center;
+    }
+    .sec3 img{
+        width: 90%;
+        margin-top: 60px;
+        margin-left: 20px
+    }
+    .art{
+        text-align: center;
+    }
+    .pro{
+        margin-top:150px;
+    }
+    .e1 img{
+        margin-top: 50px;
+        width:90%;
+        margin-left: 20px;
+    }
+    .e{
+        text-align: center;
+    }
+    .e a{
+        margin-top:30px;
+    }
+    .to img{
+        margin-top: 60px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .to h1{
+        text-align: center;
+    }
+    .api h1{
+        text-align: center;
+    }
+    form {
+        max-width: 200px;
+        margin-left: 90px;        
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    input,
+   textarea {
+     width: 100%;
+     padding: 12px;
+     margin-bottom: 16px;
+     box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     font-size: 16px;
+   }
+
+   textarea {
+     resize: vertical;
+     min-height: 100px;
+   }
+
+   button {
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     padding: 12px 16px;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 16px;
+   }
+
+   button:hover {
+     background-color: #45a049;
+   }
+     
+ footer
+ {
+ border-top: 0.1rem solid grey;
+ border-radius: 5px;
+ border-color: #CEC9C9;
+ background-color: black;
+ padding: 20px;
+ position: relative;
+ bottom: 0;
+ width: 100%;
+ 
+}
+ 
+footer p {
+ margin: 0;
+ font-size: 20px;
+ margin-left:50px;
+ color: #CEC9C9;
+}
+.p1{
+text-align:justify;
+}
+.icon{
+ font-size: 20px;
+ margin: 10px;
+ margin-left: 90px;
+}
+.p2{
+ margin-left: 20px;
+}
+.fa-square-instagram:hover{
+ color:#e4405f;
+}
+.icon a{
+ margin-right: 30px;
+}
+.fa-twitter-square:hover{
+ color: white;
+}
+.fa-linkedin:hover{
+ color: lightskyblue;
+}
+.fa-github-square:hover{
+ color: white;
+}
+   
 }
