@@ -896,7 +896,7 @@ color: white;
     }
     .tab-nav a{
 
-        margin-right: 100px;
+        margin-right: 150px;
     }
     li{
         
@@ -968,10 +968,11 @@ color: white;
         flex-direction: row;
         margin-top: 90px;
     }
+
     .overlay h1{
         margin-top: 180px;
         font-size: 60px;
-        margin-left: 90px; 
+        margin-left: 10px; 
         }
 
     .t{
@@ -986,36 +987,47 @@ color: white;
         flex-direction: row;
     }
     .skills h3{
-        text-align:start;
-        margin-left: 10px;
+        margin-top: 40px;
+        margin-left: 100px;
         color: lightblue;
     }
 .skills h4{
-    text-align: start;
-    margin-left: 10px;
+   
+    margin-left: 100px;
     color: grey;   
 }
-.about{
+p {
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: darkgray;
+    margin-bottom: 20px;
+}
+.about h1{
     text-align: center;
+   
 
 }
+.about{   
+    
+}
+
 .me{
     color:grey;
+    
 }
-.dhilee{
-    font-size: large;
-    color:#CEC9C9;
+.para .dhilee{
+    font-size: larger;
+    margin-left: -50px;
 }
-
-.about .para{
-    margin: 10px;
-    padding: 10px;
-    color:grey;
+.para .data{
+    display: flex;
+    margin-left: 350px;
+    text-align: start;
 }
-.para p{
-    margin-left: 8px;
-    color: grey;
-    padding: 20px;
+.data{
+    text-align:end ;
+    margin-left: 10px;
 }
 .b{
     text-align: center;
@@ -1023,6 +1035,7 @@ color: white;
 .blog{
     display: flex;
     flex-direction: row;
+    margin-left: 100px;
 }
 .goon img{
     width: 90%;
