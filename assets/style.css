@@ -1561,8 +1561,7 @@ margin: 10px;
 margin-left: 90px;
 }
 .p2{
-margin-left: 370px;
-margin-top: 40px;
+text-align: center;
 }
 .fa-square-instagram:hover{
 color:#e4405f;
@@ -1579,4 +1578,12 @@ color: lightskyblue;
 .fa-github-square:hover{
 color: white;
 }
+#footer .ele{
+    margin : auto;
 }
+#footer p{
+    margin : auto; 
+    text-align: center;
+}
+}
+
